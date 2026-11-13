@@ -76,9 +76,11 @@ body {
 
 .primary-btn,
 .secondary-btn {
+  display: inline-block;
   padding: 13px 24px;
   border-radius: 8px;
   text-decoration: none;
+  transition: 0.3s;
 }
 
 .primary-btn {
@@ -89,6 +91,17 @@ body {
 .secondary-btn {
   border: 1px solid #38bdf8;
   color: white;
+}
+
+.secondary-btn:hover {
+  background: #38bdf8;
+  color: #0f172a;
+}
+
+.resume-btn-container {
+  margin: 25px 0 10px;
+  display: flex;
+  justify-content: center;
 }
 
 @media (max-width: 600px) {

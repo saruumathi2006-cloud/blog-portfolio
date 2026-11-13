@@ -153,10 +153,11 @@ const sendEmail = (e) => {
     Have a project idea or want to connect? Feel free to contact me!
   </p>
 
-  
-<a href={`${import.meta.env.BASE_URL}resume.pdf`} download className="secondary-btn">
-  Download Resume
-</a>
+  <div className="resume-btn-container">
+    <a href={`${import.meta.env.BASE_URL}resume.pdf`} download className="secondary-btn">
+      Download Resume
+    </a>
+  </div>
 
 <form
   ref={form}
