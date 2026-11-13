@@ -48,7 +48,7 @@ const sendEmail = (e) => {
       <section className="hero" id="home">
         
 <img
-  src="/profile.jpeg"
+  src={`${import.meta.env.BASE_URL}profile.jpeg`}
   alt="My Profile"
   className="profile-image"
 />
@@ -154,7 +154,7 @@ const sendEmail = (e) => {
   </p>
 
   
-<a href="/resume.pdf" download className="secondary-btn">
+<a href={`${import.meta.env.BASE_URL}resume.pdf`} download className="secondary-btn">
   Download Resume
 </a>
 
